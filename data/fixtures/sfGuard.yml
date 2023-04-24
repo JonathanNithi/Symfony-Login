@@ -1,0 +1,30 @@
+sfGuardUser:
+  User_one:
+    # first_name:     Jonathan
+    # last_name:      Doe
+    # address:  168, Jampettah Street, Colombo - 13
+    username:       jona
+    password:       admin1
+    is_super_admin: true
+    Groups:         [Group_admin]
+    Employee: rec1
+  User_two:
+    # first_name:     Jonathan
+    # last_name:      Doe
+    # address:  168, Main Street, Colombo - 13
+    username:       dishi
+    password:       admin2
+    is_super_admin: true
+    Groups:         [Group_admin]
+    Employee: rec2
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission

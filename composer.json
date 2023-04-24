@@ -1,0 +1,11 @@
+{
+    "require": {
+        "lexpress/sf-doctrine-guard-plugin": "^1.5",
+        "phpunit/phpunit": "^5.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

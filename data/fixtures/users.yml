@@ -1,0 +1,12 @@
+#data/fixtures/users.yml
+
+User:
+  r1:
+    username: jona
+    encryptedPassword: 1234
+    Employee: rec1
+  r2:
+    username: dishi
+    encryptedPassword: 6789
+    Employee: rec2
+  

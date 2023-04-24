@@ -1,0 +1,13 @@
+#data/fixtures/employees.yml
+
+Employee:
+  rec1:
+    e_id: "000001"
+    fname: Jonathan
+    lname: Nithi
+    address: 168, Jampettah Street, Colombo - 13
+  rec2:
+    e_id: "000002"
+    fname: Dishan
+    lname: Nithi
+    address: 168, Main Street, Colombo - 13  
